@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>form </title>
+</head>
+
+<body style="background-color:#ffeeec">
+
+
+<header>
+<hr color="black" size="2">
+<center>
+<div style="background-color:#4d1a00;opacity:.4">
+<br>
+<h1><font color="White"> Interview Form</h1></font>
+<br>
+</center>
+</header>
+
+<form>
+
+<hr color="black" size="2">
+
+
+<h3>Self Details :</h3>
+<label>Full Name :</label>
+<input type="text" name="text" size="10" placeholder="Last Name">
+<input type="text" name="text1" size="10" placeholder="First Name">
+<input type="text" name="text2" size="10" placeholder="Middle Name">
+<br><br>
+
+<label>Birth Date :</label>
+<input type="datetime-local"name="d1">
+<br><br>
+
+<label>Gender :</label>
+<input type="radio" name="rdo">Male
+<input type="radio" name="rdo">Female
+<br><br>
+
+<label>Age :</label>
+<input type="number"name="n1"min="1"max="100" placeholder="Age">
+<br><br>
+
+<label>Address :</label>
+<input type="text" name="text3" size="25" placeholder="Address">
+<br><br>
+
+<label>Phone Number :</label>
+<input type="tel"name="t1"pattern="91-[0-9]{10}" value="+91-">
+<br><br>
+
+<label>Aadhar Number:</label>
+<input type="tel"name="t1"pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"maxlength="12"placeholder="Aadhar No" >
+
+
+<br><br>
+
+<label>E-mail ID :</label>
+<input type="email" name="e1"placeholder="example@gmail.com">
+<br><br>
+
+<hr color="black" size="2">
+
+
+<h3>Education Details : </h3>
+
+<label>Qualification : </label>
+<select name="dropdown">
+<option>10th</option>
+<option>12th</option>
+<option>Diploma after 10th</option>
+<option>Diploma after 12th</option>
+<option>Degree</option>
+</select>
+<br><br>
+<label>If you are diploma qualified then select your field :</label>
+<select name="dropdown">
+<option>Computer Technology</option>
+<option>Information Technology</option>
+<option>Mechanical</option>
+<option>Electrical</option>
+<option>Civil</option>
+</select>
+<br><br>
+<label>Upload last 3year Marksheet : </label>
+<input type="file" name="f1"accept="image/*" minlength="1kb"required>
+<br><br>
+
+<label>Experience :</label>
+<select name="dropdown">
+<option>Fresher</option>
+<option>1 year</option>
+<option>2 year</option>
+<option>3 year</option>
+<option>4 year</option>
+<option>5 year</option>
+<option>more than 5 year</option>
+</select>
+<br><br>
+
+<hr color="black" size="2">
+
+<h3>Parents Details</h3>
+
+<label>Father Name :</label>
+<input type="text" name="text" size="10" placeholder="Last Name">
+<input type="text" name="text1" size="10" placeholder="First Name">
+<input type="text" name="text2" size="10" placeholder="Middle Name">
+<br><br>
+
+<label>Occupation:</label>
+<input type="text" name="text3" size="25" placeholder="Occupation">
+<br><br>
+
+<label> Mother Name :</label>
+<input type="text" name="text" size="10" placeholder="Last Name">
+<input type="text" name="text1" size="10" placeholder="First Name">
+<input type="text" name="text2" size="10" placeholder="Middle Name">
+<br><br>
+
+<label>Occupation:</label>
+<input type="text" name="text3" size="25" placeholder="Occupation">
+<br><br>
+
+
+<hr color="black" size="5">
+<center>
+<h3>Log in</h3>
+<label>Enter Username: </label>
+<input type="text" name="text" size="10" placeholder="Enter Id">
+<br><br>
+<label>Enter Password :</label>
+<input type="password"name="pwd"maxlength="5"placeholder="Enter Password">
+<br>
+</center>
+<hr color="black" size="5">
+
+<input type="button" name="b1" value="Submit"onclick="fun()">
+<input type="Reset"name="r1" onclick="fun1()">
+
+
+</form>
+
+<script>
+function fun(){
+alert("stored successfully");
+}
+
+function fun1(){
+alert("enter again");
+}
+
+</script>
+
+</body>
+</html>
