@@ -1,1 +1,1 @@
-# NGO-manangement-System
+# NGO-management-System
